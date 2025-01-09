@@ -24,7 +24,6 @@
     </header>
     <section id="sobre">
         <h2>Sobre mim</h2>
-        <img src="/Users/DELL/Desktop/ESTUDOS DESENVOLVEDOR WEB 365/SITE/alison.jpg.jpg" alt=" minha foto" width="300px" height="300px" title="Imagem de perfil">
         <article>
             <p>Eu Sou Alison, Sou desenvolvedor web</p>
         </article>
@@ -44,11 +43,55 @@
             <p>Este foi o primeiro site que desenvolvi estudando frontend</p>
         </article>
     </section>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolvimento de Scripts do lado do cliente para interações.</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
     <footer>
         <p>Direitos reservados a Alison</p>
         <section id="contato">
             <h2>Contato</h2>
-            <p>Tem um projeto em mente, Entre em contato</p>
+            <p>Tem um projeto em mente, Entre em contato!</p>
+            <!--Criação de um formulário simples-->
+            <form action="">
+                <label form="nome">Nome: </label>
+                <input Type="nome" id="nome" nome="nome" required> <br>
+
+                <label form="email">E-mail: </label>
+                <input type="email" id="email" nome="email" required><br>
+
+                <label form="telefone">Telefone</label>
+                <input Type="tel" id="telefone" nome="telefone"><br>
+
+                <!--Formulário com alguma opções para selecionar-->
+                <label form="assunto">Assunto:</label>
+                <select name="assunto" id="assunto">
+                    <option value="Orcamento">Orçamento</option>
+                    <option value="duvida">Duvidas</option>
+                    <option value="outro">Outros</option>
+                </select> <br>
+                <!--Para colocar uma caixa de mensagem que o usuario possa digitar-->
+                <label for="mensagem">Mensagens:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="5" required></textarea> <br>
+
+                <!--Para colocar uma caixa de seleção-->
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber minha newsletter? Fique por dentro!</label>
+
+                <input type="submit" value="Enviar mensagem">
+
+
+
+
+            </form>
+
+
+
             <address>
                 E-mail:<a href="mailto:alison.rosa30h3@gmail.com"> alison.rosa30h3@gmail.com</a><br>
                 tel: <a href="tel:+5547997346563"> (47) 99734-6563</a>
